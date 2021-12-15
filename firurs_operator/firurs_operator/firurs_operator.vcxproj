@@ -143,13 +143,17 @@
     <ClCompile Include="Krug.cpp" />
     <ClCompile Include="Kvadrat.cpp" />
     <ClCompile Include="Liniya.cpp" />
+    <ClCompile Include="Moneta.cpp" />
     <ClCompile Include="Pryamougolnyk.cpp" />
+    <ClCompile Include="washing_machine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Krug.h" />
     <ClInclude Include="Kvadrat.h" />
     <ClInclude Include="Liniya.h" />
+    <ClInclude Include="Moneta.h" />
     <ClInclude Include="Pryamougolnyk.h" />
+    <ClInclude Include="washing_machine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

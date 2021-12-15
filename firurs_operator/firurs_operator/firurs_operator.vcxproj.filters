@@ -30,6 +30,12 @@
     <ClCompile Include="Krug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Moneta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="washing_machine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Kvadrat.h">
@@ -42,6 +48,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Krug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Moneta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="washing_machine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
