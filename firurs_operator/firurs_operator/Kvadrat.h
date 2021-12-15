@@ -12,5 +12,10 @@ public:
 	{
 		return Pryamougolnyk();
 	}
+	Pryamougolnyk operator-(Liniya& liniya)
+	{
+		return Pryamougolnyk();
+	}
+
 };
 

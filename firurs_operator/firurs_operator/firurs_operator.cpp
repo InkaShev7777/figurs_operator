@@ -4,6 +4,6 @@ int main()
 {
 	Kvadrat kvadrat;
 	Liniya liniya;
-	Pryamougolnyk pry = kvadrat + liniya;
+	Pryamougolnyk pry = kvadrat - liniya;
 }
 
