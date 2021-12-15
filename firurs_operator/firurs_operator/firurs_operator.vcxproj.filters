@@ -18,5 +18,31 @@
     <ClCompile Include="firurs_operator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Kvadrat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Liniya.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pryamougolnyk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Krug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kvadrat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Liniya.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pryamougolnyk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Krug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

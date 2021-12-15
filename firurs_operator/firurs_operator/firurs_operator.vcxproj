@@ -140,6 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="firurs_operator.cpp" />
+    <ClCompile Include="Krug.cpp" />
+    <ClCompile Include="Kvadrat.cpp" />
+    <ClCompile Include="Liniya.cpp" />
+    <ClCompile Include="Pryamougolnyk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Krug.h" />
+    <ClInclude Include="Kvadrat.h" />
+    <ClInclude Include="Liniya.h" />
+    <ClInclude Include="Pryamougolnyk.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

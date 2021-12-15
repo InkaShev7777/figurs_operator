@@ -1,7 +1,9 @@
 #include <iostream>
-
+#include "Krug.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	Kvadrat kvadrat;
+	Liniya liniya;
+	Pryamougolnyk pry = kvadrat + liniya;
 }
 
