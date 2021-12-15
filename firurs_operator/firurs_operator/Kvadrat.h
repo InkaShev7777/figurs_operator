@@ -27,6 +27,16 @@ public:
 	{
 		return Pryamougolnyk();
 	}
+	friend std::ostream& operator<<(std::ostream& out,const Kvadrat& kv)
+	{
+		out << "Storona: " << kv.storona << "\n";
+		return out;
+	}
+	friend std::istream& operator>>(std::istream& in, Kvadrat& kv)
+	{
+		in >> kv.storona;
+		return in;
+	}
 
 };
 

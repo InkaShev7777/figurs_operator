@@ -1,8 +1,6 @@
 #pragma once
 #include<iostream>
 #include"Kvadrat.h"
-//#define f
-
 class Krug
 {
 	int rad;
@@ -31,18 +29,29 @@ public:
 			return 0;
 		}
 	}
-#ifdef f
+
 	Moneta operator+(Kvadrat& kvadrat)
 	{
 		if (this->rad > kvadrat.getStorona())
 			return Moneta();
 	}
-#else
-	washing_machine operator+(Kvadrat& kvadrat)
+
+	washing_machine operator+(Kvadrat* kvadrat)
 	{
 		return washing_machine();
 	}
-#endif 
+	friend std::ostream& operator<<(std::ostream& out, const Krug& kr)
+	{
+		out << "Radius: " << kr.rad << "\tBool:" << kr.ok << "\n";
+		return out;
+	}
+	friend std::istream& operator>>(std::istream& in, Krug& kr)
+	{
+		in >> kr.rad;
+		in >> kr.ok;
+		return in;
+	}
+
 
 	
 

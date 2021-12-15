@@ -1,24 +1,18 @@
 #include <iostream>
 #include "Krug.h"
-//#define a
 int main()
 {
-	//1,2
-	Kvadrat kvadrat;
-	Liniya liniya;
-	Pryamougolnyk pry = kvadrat + liniya;
-	pry.print();
-	std::cout << "\n";
-	//3
 	Krug krug;
-	Krug k;
-	
-#ifdef a
-	Moneta m = krug + kvadrat;
-	m.print();
-#else
-	washing_machine m = k + kvadrat;
-	m.print();
-#endif 
+	Kvadrat kv;
+	std::cout << krug;
+	std::cout << "\nVvedite: ";
+	std::cin >> krug;
+	std::cout << krug;
+	std::cout << "\n";
+	std::cout << kv;
+	std::cin >> kv;
+	std::cout << "\n";
+	std::cout << kv;
+
 }
 
